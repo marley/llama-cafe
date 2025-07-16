@@ -10,12 +10,15 @@ function Header() {
 
   return (
     <>
-      <h1>Llama Coffee co.</h1>
-      <img
-        src="src/img/llamacoffee.png"
-        height="300px"
-        alt="the llama coffee logo"
-      ></img>
+      <div class="container">
+        <img
+          className="header-img"
+          src="src/img/llamacoffee.png"
+          alt="the llama coffee logo"
+        ></img>
+        <h1>Llama Coffee co.</h1>
+      </div>
+
       <p>
         Welcome to Berlin's only llama cafe, where you get to enjoy coffee while
         petting llamas!
