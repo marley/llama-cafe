@@ -10,7 +10,9 @@ function MenuItem({ item, price }) {
   return (
     <>
       <li>
-        {item} - {price}{" "}
+        <span>
+          {item} - {price}{" "}
+        </span>
         <button onClick={handleClick}>Add to cart {count}</button>
       </li>
     </>

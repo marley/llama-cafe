@@ -10,12 +10,30 @@
   display: flex;
 }
 
+#menu-container > ul > li {
+  list-style: none;
+}
+
 .header-img {
-  width: 100px;
+  width: 60px;
+  margin: 0 20px 0 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: start;
+  align-items: end;
 }
 
 @media only screen and (max-width: 600px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
   .header-img {
     width: 100%;
+    margin: 20px 0 20px 0;
   }
 }

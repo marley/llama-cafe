@@ -16,10 +16,10 @@ function Menu() {
   });
 
   return (
-    <>
+    <div id="menu-container">
       <h2>Menu</h2>
       <ul>{menuItemsJSXArray}</ul>
-    </>
+    </div>
   );
 }
 

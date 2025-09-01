@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <>
-      <div className="container">
+      <div className="header-container">
         <img
           className="header-img"
           src="src/img/llamacoffee.png"
