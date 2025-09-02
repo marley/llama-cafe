@@ -9,7 +9,7 @@ function Header() {
   }
 
   return (
-    <>
+    <div className="my-5">
       <div className="header-container">
         <img
           className="header-img"
@@ -23,7 +23,7 @@ function Header() {
         Welcome to Berlin's only llama cafe, where you get to enjoy coffee while
         petting llamas!
       </p>
-    </>
+    </div>
   );
 }
 

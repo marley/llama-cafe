@@ -10,10 +10,10 @@ function Section({ title, text }) {
     titleClass = "text-success"; // Bootstrap green
   }
   return (
-    <>
+    <div class="my-5 py-2">
       <h2 className={titleClass}>{title}</h2>
       <p className={fontSize}>{text}</p>
-    </>
+    </div>
   );
 }
 export default Section;

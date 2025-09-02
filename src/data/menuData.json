@@ -1,6 +1,26 @@
 [
-  { "id": 1, "name": "Espresso", "price": "2.30" },
-  { "id": 2, "name": "Cappucino", "price": "3.30" },
-  { "id": 3, "name": "Chai latte", "price": "4.00" },
-  { "id": 4, "name": "Mango lassi", "price": "2.50" }
+  {
+    "id": 1,
+    "name": "Espresso",
+    "price": "2.30",
+    "imgSrc": "src/img/xyzcharlize-nMaynn82WZ0-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cappucino",
+    "price": "3.30",
+    "imgSrc": "src/img/kristian-angelo-zcoorMFwUvY-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chai latte",
+    "price": "4.00",
+    "imgSrc": "src/img/fauzan-WoJTrgm-Mkw-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mango lassi",
+    "price": "2.50",
+    "imgSrc": "src/img/julia-zyablova-KlVIYmGVRQ8-unsplash.jpg"
+  }
 ]
